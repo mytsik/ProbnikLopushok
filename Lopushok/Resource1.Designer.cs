@@ -103,6 +103,16 @@ namespace ProbnikLopushok {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap paper_12 {
+            get {
+                object obj = ResourceManager.GetObject("paper_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap paper_13 {
             get {
                 object obj = ResourceManager.GetObject("paper_13", resourceCulture);
@@ -126,6 +136,16 @@ namespace ProbnikLopushok {
         internal static System.Drawing.Bitmap paper_15 {
             get {
                 object obj = ResourceManager.GetObject("paper_15", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap paper_16 {
+            get {
+                object obj = ResourceManager.GetObject("paper_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,6 +193,16 @@ namespace ProbnikLopushok {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap paper_20 {
+            get {
+                object obj = ResourceManager.GetObject("paper_20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap paper_21 {
             get {
                 object obj = ResourceManager.GetObject("paper_21", resourceCulture);
@@ -203,6 +233,16 @@ namespace ProbnikLopushok {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap paper_24 {
+            get {
+                object obj = ResourceManager.GetObject("paper_24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap paper_25 {
             get {
                 object obj = ResourceManager.GetObject("paper_25", resourceCulture);
@@ -216,6 +256,16 @@ namespace ProbnikLopushok {
         internal static System.Drawing.Bitmap paper_3 {
             get {
                 object obj = ResourceManager.GetObject("paper_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap paper_4 {
+            get {
+                object obj = ResourceManager.GetObject("paper_4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -246,6 +296,16 @@ namespace ProbnikLopushok {
         internal static System.Drawing.Bitmap paper_7 {
             get {
                 object obj = ResourceManager.GetObject("paper_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap paper_8 {
+            get {
+                object obj = ResourceManager.GetObject("paper_8", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

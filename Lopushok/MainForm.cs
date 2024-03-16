@@ -36,7 +36,7 @@ namespace Lopushok
 
         public static void SQLtoDB(string sql)
         {
-            conn.Open();            
+            conn.Open();
             NpgsqlDataAdapter dataAd = new NpgsqlDataAdapter(sql, conn);
             dataSet = new DataSet();
             dataSet.Reset();
@@ -80,7 +80,7 @@ namespace Lopushok
                 ProductControl productCont = new ProductControl();
                 productCont.Size = new Size(600, 104);
                 productCont.Title(dataTable.Rows[i][1].ToString());
-                productCont.Article(dataTable.Rows[i][3].ToString());                
+                productCont.Article(dataTable.Rows[i][3].ToString());
                 productCont.TypeTitle(dataTable.Rows[i][10].ToString());
 
                 string sqlCommandMat = string.Format("SELECT * FROM public.\"ProductMaterial\" " +
@@ -104,16 +104,16 @@ namespace Lopushok
                 if (dataTable.Rows.Count != 0) //если есть материалы
                 {
                     productCont.Materials(matResult);
-                    productCont.Cost(Math.Round(matCountCost, 2).ToString());                    
+                    productCont.Cost(Math.Round(matCountCost, 2).ToString());
                 }
                 else
                 {
                     productCont.Materials("-");
                     productCont.Cost(agentCost);
                 }
-                
+
                 Random rnd = new Random();
-                productCont.PicLoc($"paper_{rnd.Next(0, 26)}.jpeg");
+                productCont.PicLoc($"C:\\Users\\Yanina\\Downloads\\Promezhutochny_kontrol (1)\\Промежуточный контроль\\Сессия 1\\products\\paper_{rnd.Next(0, 26)}.jpeg");
                 productCont.PicSizeMode(PictureBoxSizeMode.Zoom);
 
                 flowLayoutPanelProducts.Controls.Add(productCont);

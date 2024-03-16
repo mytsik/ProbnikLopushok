@@ -113,7 +113,7 @@ namespace Lopushok
                 }
                 
                 Random rnd = new Random();
-                productCont.PicLoc($"C:\\Users\\user\\Desktop\\учеба\\пробник демки\\поповские файлы\\Promezhutochny_kontrol\\Промежуточный контроль\\Сессия 1\\products\\paper_{rnd.Next(0, 26)}.jpeg");
+                productCont.PicLoc($"paper_{rnd.Next(0, 26)}.jpeg");
                 productCont.PicSizeMode(PictureBoxSizeMode.Zoom);
 
                 flowLayoutPanelProducts.Controls.Add(productCont);

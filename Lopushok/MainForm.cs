@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Lopushok
 {
-    public partial class Form2 : Form
+    public partial class MainForm : Form
     {
         int lastPageNum = 0; //номер последней страницы
         int currentPageNum = 1;        
@@ -21,9 +21,9 @@ namespace Lopushok
              " ORDER BY public.\"Product\".\"ID\" ASC";
         public static DataSet dataSet;
         public static DataTable dataTable;
-        public static NpgsqlConnection conn = new NpgsqlConnection("Server=localhost;Port=5432;Database=ProbnikMyScript;User Id=postgres;Password=24601;");
+        public static NpgsqlConnection conn = new NpgsqlConnection("Server=localhost;Port=5432;Database=ProbnikLopushok;User Id=postgres;Password=24601;");
 
-        public Form2()
+        public MainForm()
         {
             InitializeComponent();
             oneProductPagePanel(sqlCommand);
